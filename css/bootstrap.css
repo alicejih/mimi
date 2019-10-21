@@ -2532,20 +2532,17 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E");
 }
 .big{
-  width: 1000px;
-  height:400px;
+
   background-repeat:no-repeat;
-  background-image: url("images/lineuicut7_17.png");
+  background-image: url("../images/lineuicut7_11.png");
   background-repeat:no-repeat;
-   
-    background-size:918px 393px;
 }
 .moon{
   margin-top:5%; 
   width: 312px;
   height:475px;
   background-repeat:no-repeat;
-  background-image: url("images/moon_3.png");
+  background-image: url("../images/moon_3.png");
 }
 .moonword{
   top:100px; 
@@ -2806,7 +2803,12 @@ fieldset[disabled] a.btn {
 }
 
 .btn-success {
-  color: #fff;
+  color: black;
+  background-color: white;
+  border-color:black; 
+  border-width:9px;
+  font-family:'Noto Sans TC', sans-serif;
+
   
 }
 
@@ -2816,8 +2818,8 @@ fieldset[disabled] a.btn {
 }
 
 .btn-success:focus, .btn-success.focus {
-  -webkit-box-shadow: 0 0 0 2px rgba(92, 184, 92, 0.5);
-          box-shadow: 0 0 0 2px rgba(92, 184, 92, 0.5);
+  -webkit-box-shadow: 0 0 0 3px rgba(92, 184, 92, 0.5);
+          box-shadow: 0 0 0 3px rgba(92, 184, 92, 0.5);
 }
 
 .btn-success.disabled, .btn-success:disabled {
@@ -3106,7 +3108,7 @@ fieldset[disabled] a.btn {
 
 .btn-lg, .btn-group-lg > .btn {
  
-  font-size: 1.25rem;
+  font-size: 1.8rem;
   border-radius: 0.3rem;
 }
 
